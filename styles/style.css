@@ -119,10 +119,12 @@ footer {
 
 .hiding-place {
     height: 300px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 .hiding-img {
@@ -135,4 +137,13 @@ footer {
     font-size: 8rem;
     content: '😃';
     position: absolute;
+    left:50px;
+}
+
+#tree-face, #boulder-face, #shed-face{
+    visibility: hidden;
+}
+
+button{
+    cursor: pointer;
 }
