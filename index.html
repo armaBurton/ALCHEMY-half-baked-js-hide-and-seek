@@ -23,22 +23,23 @@
             <h2>
                 Guess where I'm hiding!
             </h2>
-            <div id="tree-container" class="hiding-places">
-                <div class="hiding-place">
-                    <div id="tree-face" class="face"></div>
-                    <img src="./assets/tree.webp" class="hiding-img" />
+            <div id="container" class="hiding-places">
+
+                <div id="tree-container" class="hiding-place">
+                    <img src="./assets/tree.webp" class="hiding-img face" />
                     <button id="tree-button">Tree</button>    
                 </div>
-                <div id="boulder-container" class="hiding-place .face">
-                    <div id="boulder-face" class="face"></div>
+
+                <div id="boulder-container" class="hiding-place">
                     <img src="./assets/boulder.png" class="hiding-img" />
                     <button id="boulder-button">Boulder</button>
                 </div>
+
                 <div id="shed-container" class="hiding-place">
-                    <div id="shed-face" class="face"></div>
                     <img src="./assets/shed.png" class="hiding-img" />
                     <button id="shed-button">Shed</button>        
                 </div>
+
             </div>
             <div>You guessed correctly <span id="wins">0</span> times</div>
             <div>and incorrectly <span id="losses">0</span> times</div>

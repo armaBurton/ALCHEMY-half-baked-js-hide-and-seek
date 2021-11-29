@@ -138,11 +138,12 @@ footer {
     content: '😃';
     position: absolute;
     left:50px;
+    visibility: visible;
 }
 
-#tree-face, #boulder-face, #shed-face{
+/* #tree-face, #boulder-face, #shed-face{
     visibility: hidden;
-}
+} */
 
 button{
     cursor: pointer;
